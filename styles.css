@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}    
+body{
+  background-color: #faeee7;
+}
+header a{
+    display: block;
+}
+/* #flou{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e2216b2d;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -100%; 
+}
+#flou:target{
+    margin-left: 0;
+    transition: margin-left .5s ease;
+} */
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header nav.menu{
+    display: none;
+}
+header div.burger{
+    width: 50px;
+    margin: 20px;
+    display: block;
+}
+/* 
+#premieresection {
+
+    display: flex;
+    justify-content: space-between;
+ 
+}
+h1 {
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 100px;
+    justify-content: left;
+    display: flex;
+    font-weight: 600;
+    font-size: 3rem;
+}
+ */
+.bigSize {
+    font-family: 'Playfair Display', serif;
+}
+
+    
+
+    
+.ligne1 {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 11px;
+    transform-origin: left;
+    background-image: linear-gradient(to right, #e2216a, rgb(218, 217, 215));
+}
+
+.ligne2 {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 11px;
+    transform-origin: left;
+    background-image: linear-gradient(to right,#e2216a, rgb(218, 217, 215));
+}
+
+.ligne2:hover {
+    margin: 20%; 
+    
+}
+.ligne3 {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 11px;
+    transform-origin: left;
+    background-image: linear-gradient(to right,#e2216a, rgb(218, 217, 215));
+}
+
+figure img {
+    width: 5%;
+    justify-content: space-between;
+  
+}
+
+.menu ul{
+    display: flex;
+    justify-content: right;
+    font-family: 'Itim', cursive;
+    box-shadow: none;
+    color: rgb(177, 125, 125);
+}
+
+
+.menu li{  
+    margin: 0 0 0 100px;
+    text-decoration: none;
+}
+
+/* 
+#p1,#p2,#p3,#p4 {
+    border-radius: 10%;
+   
+}
+#moi{
+    width: 20px;
+display:flex;
+justify-content: right;
+border: #e2216a;
+border-style: dotted;
+border-radius: 999px;
+margin-top: 100px;
+}
+
+
+#deuxiemesection {
+
+    font-family: 'Playfair Display', serif;
+    display: block;
+   
+}
+
+#parcours{
+    border: solid;  
+     border-width: 1px;
+    border-left: solid 5px;
+    border-radius: 20px;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px -1px rgba(14, 6, 6, 0.1), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    margin: 50px;
+   margin-top: 200px;
+   background-color: rgba(255, 255, 255, 0.664);
+
+}
+
+#competences{
+    border: solid;  
+     border-width: 1px;
+    border-left: solid 5px;
+    border-radius: 20px;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px -1px rgba(14, 6, 6, 0.1), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    margin: 50px;
+   margin-top: 200px;
+   background-color: rgba(255, 255, 255, 0.664);
+
+}
+
+#mecontacter{
+    border: solid;  
+     border-width: 1px;
+    border-left: solid 5px;
+    border-radius: 20px;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px -1px rgba(14, 6, 6, 0.1), 0 2px 4px -1px rgb(0 0 0 / 6%);
+    margin: 50px;
+   margin-top: 200px;
+   background-color: rgba(255, 255, 255, 0.664);
+
+}
+
+
+h2 {
+    color: brown;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h3 {
+
+margin-left: 10px;
+
+}
+
+h3:hover {
+   color: #e2216a;
+}
+form {
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 70px;
+    margin: 10px;
+    color: white;
+    background-color: #f8ebf2;
+    border-radius: 10px;
+}
+
+
+button { 
+    display: block;
+    background-color: #e2216a;
+    color: white;
+    text-align: center;
+   margin-left: 45%;
+   margin-right: 45%;
+   border-radius: 20px;
+}
+
+label {
+
+width: 200px;
+margin-bottom: 10px;
+margin-top: 10px;
+border: solid;
+border-radius: 25px;
+font-size: smaller;
+background-color: #e2216a;
+text-align: center;
+}
+
+textarea {
+
+    width: 500px;
+}
+
+select {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+input {
+    margin-right: 80%;
+
+}
+ */
+
+
+
+@media screen and (min-width: 768px) {
+    header nav.menu{
+        display: block;
+    }
+    header div.burger{
+        display: none;
+    }
+}
+
+/* @media screen and (min-width: 900px){
+    .flex{
+        display: flex;
+    }
+} */

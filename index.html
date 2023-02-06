@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bintou Fall-Diagne </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="[path to CSS file]" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@100&family=Noto+Sans+NKo&family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        a { color:brown } /* CSS link color */
+      </style>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>  
+        <p class="bigSize">
+            Votre future stagiaire en développement web
+        </p> 
+        <nav id="flou" class="menu">
+            <ul> 
+                <li id="p1"> <a href="#parcours" target="_blank">Parcours scolaire</a>  </li>
+                <li id="p2"> <a href="#competences"target="_blank">Profil de compétences</a> </li>
+                <li id="p3"> <a href="http://127.0.0.1:5500/portfolio/realisations.html"target="_blank">Réalisations antérieures </a> </li>
+                <li id="p4"> <a href="#mecontacter"target="_blank">Me contacter</a></li>
+            </ul>
+        </nav>
+        <a href="#flou">
+            <div class="burger">
+                <div class="ligne1"> </div>
+                <div class="ligne2"> </div>
+                <div class="ligne3"></div>
+            </div>
+        </a>
+        
+    </header>
+
+<section id="premieresection"> 
+<!--     <div id="espace"> </div>
+    <div id="espace2"></div> -->
+   
+
+   <figure> <h1 id="nom"> Bintou Fall-Diagne </h1> 
+  <figcaption> 
+    <p class="bigSize"> 
+        Jeune femme marseillaise de 22 ans, originaire de Dax, <br>Je suis à la recherche d'un stage d'observation dans le développement web du 8 avril au 5 Mai.
+       <br> Dynamique et motivée, je souhaite monter en compétences à vos côtés tout en vous apportant ma plu-value. 
+       <br> Je vous laisse me découvrir  
+    </p>
+   
+</figcaption>   
+
+    <td><img src="franc.png" alt=""></td>
+    <td><img src="eng.png" alt=""></td>
+    <td><img src="espagnol.png" alt=""> </td>
+    <td><img src="arabe.png" alt=""></td>
+    <td><img src="senegal (1).png" alt=""></td>
+    
+
+ 
+    </figure> 
+    
+
+    <img id="moi" src="tof.png" alt="moi"/>
+
+</section>
+   
+    <section id="deuxiemesection">
+<div id="parcours"> 
+            <h2 >Parcours scolaire </h2>
+       <p> Après un Bac ES obtenu en 2019, je me suis dirigé vers une licence de droit. 
+            Cette licence a augmenté mes compétences redactionnelle notamment, 
+            mais également d'expression orale et mon esprit de synthèse. 
+        Par la suite, j'ai ressenti l'envie de faire prendre à ma vie professionnelle
+        une tournant dans laquelle je serais au coeur du progrès.
+    Aussi, j'ai voulu trouvé un métier dans lequel 
+    je pourrais exprimer mon esprit de fédération et laisser libre cours à ma créativité.
+        C'est donc le metier de developpeur web qui correspond à mes attentes et pour lequel je me forme aujourd'hui.
+
+</div>
+ <div id="competences">
+
+          <h2>Compétences</h2>
+    <ul >
+      <tr> 
+        <h3> Langages et outils du développeur maitrisés </h3>
+    <details> <summary> Afficher</summary>
+     
+     <ul> 
+
+      <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>RAILS</li>
+          <li>GIT</li>
+       </ul>
+         </details>
+      </tr>
+        <h3> Usage de l'outil informatique </h3>
+  <details> <summary> Afficher </summary>
+      <tr> 
+        
+          <ul>
+          <li>Notions d'UX/UI DESIGN</li>
+          <li>PACK OFFICE</li>
+          <li>RESEAUX SOCIAUX</li>
+      </ul>
+
+      </tr>
+      </details>
+
+     <h3> Valeure ajoutée</h3> 
+     <details> <summary> Afficher </summary>
+                <tr>
+                    <ul> 
+                 <li>Analyse juridique</li>
+                 <li> Support à l'élaboration de la stratégie commerciale </li>
+                <li> Force de proposition </li>
+            </ul>
+            </details>              
+
+    </div>
+
+
+
+
+    <div id="mecontacter">
+
+        <h2 >Me contacter</h2>
+        <p>
+            Pour me contacter par mail veuillez remplir le formulaire ci-dessous ou rentrer votre numéro de téléphone dans l'animation prévue à cet effet
+        </p> 
+        <form action="/page-traitement-donnees" method="post">
+        <label for="Nom">Votre nom</label>
+        <input type="text" id="Nom" name="nom" placeholder="" required>
+        <label for="Prenom">Votre Prénom</label>
+        <input type="text" id="Nom" name="nom" placeholder="" required>
+        <label for="Numero">Votre numéro de téléphone </label>
+        <input type="text" id="Numero" name="Numero" placeholder="+337........" required>
+            <form action="/page-traitement-donnees" method="post">
+            <label for="email">Votre e-mail</label>
+            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </select>
+            <select name="Date de demarrage souhaité" id="sujet" required>
+                <option value="" disabled selected hidden>Choisissez la date de démarrage souhaitée </option>
+                <option value="aujourd'hui">Ajourd'hui</option>
+                <option value="demain"> Demain</option>
+                <option value="Date libre">Date à préciser dans l'option message </option>
+            <label for="message">Votre message</label> 
+            <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+            <button type="submit">Envoyer mon message</button>
+     
+            </form>
+    </div>
+    </section>
+       
+</body>
+</html>
